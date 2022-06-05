@@ -3,8 +3,8 @@
 ## What I "built"
 
 - A navbar for a portfolio site.
-  ![Screenshot](20220604_end_result.png)
-  <img src="20220604_end_result.png" width="400" />
+
+> ![Screenshot](screenshot.png)
 
 ## What inspired?
 
