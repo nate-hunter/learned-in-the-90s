@@ -3,9 +3,10 @@
 ## What I "built"
 
 - A navbar for a portfolio site.
-  <section style="border: 2px solid #333">
+
+  <p style="border:2px solid #333">
     <img src="20220604_end_result.png" />
-  </section>
+  </p>
 
 ## What inspired?
 
