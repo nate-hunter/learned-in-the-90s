@@ -68,8 +68,10 @@
   width: 100%;
 }
 
-/* .logoName:hover {
-} */
+.logoName:hover {
+  color: var(--accent-color);
+  transition: color ease-in 400ms;
+}
 
 #testBgHover {
   height: 100%;
@@ -108,6 +110,7 @@
 
 .navItem:hover {
   color: var(--primary-color);
+  transition: color ease-in 400ms;
 }
 
 .navItem:hover:before {
