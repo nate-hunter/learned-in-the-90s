@@ -4,14 +4,9 @@
 
 - A navbar for a portfolio site.
 
-<style>
-.imgBorder {
-  border: 1px solid #333;
-  margin: 15px;
-}
-</style>
+<img src="header.svg" width="800" height="400">
 
-![Screenshot](20220604_end_result.png) {#identifier .imgBorder}
+![Screenshot](20220604_end_result.png)
 
 ## What inspired?
 
