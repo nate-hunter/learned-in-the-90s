@@ -4,7 +4,7 @@
 
 - A navbar for a portfolio site.
 
-> <img src="screenshot.png" width="800" height="400" alt="Screenshot">
+> ![Screenshot](screenshot.png)
 
 ## What inspired?
 
