@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #dcff7d;
+  --secondary-color: #a07dff;
+  --accent-color: #7dffc2;
+
+  --bg-color-dk: #333;
+
+  --text-color-dk: #091e42;
+  --text-color-dk: #091e42;
+  --text-color-lt: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Cutive Mono", monospace; */
+}
+
+#topNav {
+  height: 55px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color-dk);
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  text-decoration: none;
+  color: var(--text-color-lt);
+}
+
+#logoBoxIcon {
+  height: 35px;
+  width: 20px;
+  border: 3px solid var(--primary-color);
+  margin-right: 5px;
+}
+
+.logoName {
+  width: 65px;
+  word-wrap: normal;
+  line-height: 1;
+  font-family: "Marcellus", serif;
+
+  /* position: relative; */
+
+  /* background-image: linear-gradient(120deg, #fco, #fco); */
+
+  display: inline-block;
+}
+
+.logoName:after {
+  transition: all ease-in-out 0.2s;
+  background: none repeat scroll 0 0 var(--accent-color);
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+}
+
+.logoName:hover:after {
+  width: 100%;
+}
+
+/* .logoName:hover {
+} */
+
+#testBgHover {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+}
+
+#navListContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #3cc6e9;
+}
+
+#navList {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navItem {
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--text-color-lt);
+  line-height: 1.5;
+  /* Need to better understand `position` and how it makes the animation work. */
+  position: relative;
+}
+
+.navItem:hover {
+  color: var(--primary-color);
+}
+
+.navItem:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  border-bottom: 2px solid var(--primary-color);
+  animation: border_anim 300ms linear forwards;
+}
+
+@keyframes border_anim {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* NOTES */
+.pallette-ideas {
+  color: #333;
+  color: rgba(9, 30, 66, 0.09);
+  color: #091e42;
+  color: #ced4da;
+  color: #0052cc;
+  color: #fff;
+  color: #3cc6e9;
+  color: #ffc107;
+  color: #dc3545;
+  color: #51c472;
+
+  color: #ced4da;
+  color: #000;
+  color: #ebe6ff;
+  color: #3f20ba;
+  color: #0052cc;
+}
+
+.fonts {
+  /* text  */
+  font-family: "Montserrat", sans-serif;
+  /* logo  */
+  font-family: "Marcellus", serif;
+  /* misc text  */
+  font-family: "Cutive Mono", monospace;
+}
