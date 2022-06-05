@@ -4,7 +4,7 @@
 
 - A navbar for a portfolio site.
 
-<img src="header.svg" width="800" height="400">
+<img src="screenshot.svg" width="800" height="400" alt="screenshot">
 
 ![Screenshot](20220604_end_result.png)
 
