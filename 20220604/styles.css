@@ -77,14 +77,14 @@
   align-items: center;
   text-decoration: none;
   color: var(--accent-color);
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
 }
 
 #navListContainer {
   height: 100%;
   display: flex;
   align-items: center;
-  background-color: #3cc6e9;
+  /* background-color: #3cc6e9; */
 }
 
 #navList {

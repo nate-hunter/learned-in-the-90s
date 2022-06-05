@@ -3,12 +3,14 @@
 ## What I "built"
 
 - A navbar for a portfolio site.
+  ![Screenshot](20220604_end_result.png)
+  <img src="20220604_end_result.png" width="400" />
 
 ## What inspired?
 
 - [National Geographic's](https://www.nationalgeographic.com/) site, kind of
 
-## What features that are kinda cool that I did?
+## What features are kinda cool that I did?
 
 - A simple logo from a div
 - Animated hovering
@@ -16,7 +18,7 @@
 ## What was tricky that I did/learned?
 
 - How to animate a bottom border.
-- <div> + `height` stuff
+- `div` + `height` stuff
 
 ## What did I hope to get to but didn't?
 
