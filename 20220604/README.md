@@ -3,8 +3,9 @@
 ## What I "built"
 
 - A navbar for a portfolio site.
-  ![Screenshot](20220604_end_result.png)
-  <img src="20220604_end_result.png" width="400" />
+  <section style="border: 2px solid #333">
+    <img src="20220604_end_result.png" />
+  </section>
 
 ## What inspired?
 
